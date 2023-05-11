@@ -1,34 +1,94 @@
+/* PAGE SETTINGS */
+:root {
+    --colorDeTextoHeader: white;
+    --colorDeFondoHeader: red;
+
+    --colorDeTextMain: white;
+    --colorDeFondoMain: yellow;
+
+    --colorDeTextFooter: white;
+    --colorDeFondoFooter: blue;
+}
+
+
+
+
+
+
+
+
+/* SI BAJAN PUEDEN VER LOS AJUSTES DE CADA ELEMENTO DE LA PAGINA */
+/* RECOMIENDO TODAVIA NO EMPEZAR A MODIFICAR LOS VALORES DE ABAJO */
+/* YA QUE PUEDEN GENERAR ERRORES EN LA PAGINA */
+/* IGUAL YA SABEN CHICOS, PUEDEN EXPERIMENTAR  */
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+/* AJUSTES DE REINICIO PARA MEJOR ADAPTACIÓN */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+
+
+/* HEADER STYLES */
 header {
     /* SCREEN VIEW */
     width: 100%;
     height: 20vh;
-    background-color: red;
+    background-color: var(--colorDeFondoHeader);
 
     /* DISPLAY CONFIGURATION */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+
+    /* LETTER COLOR */
+    color: var(--colorDeTextoHeader);
 }
 
+
+/* MAIN STYLES */
 main {
     /* SCREEN VIEW */
     width: 100%;
     height: 70vh;
-    background-color: yellow;
+    background-color: var(--colorDeFondoMain);
 
     /* DISPLAY CONFIGURATION */
     display: flex;
     align-items: center;
     justify-content: center;
+
+
+    /* LETTER COLOR */
+    color: var(--colorDeTextMain);
 }
 
+/* FOOTER STYLES */
 footer {
 
     /* DISPLAY CONFIGURATION */
@@ -40,9 +100,13 @@ footer {
     /* SCREEN VIEW */
     width: 100%;
     height: 10vh;
-    background-color: blue;
+    background-color: var(--colorDeFondoFooter);
+
+    /* LETTER COLOR */
+    color: var(--colorDeTextFooter);
 }
 
+/* ESTILOS DE LA IMAGEN */
 img {
     width: 500px;
     height: 360px;
